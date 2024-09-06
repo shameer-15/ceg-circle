@@ -52,9 +52,6 @@
 - **Search for Specific Places**: Enter a place or category in the search bar to quickly locate it.
 - **Get Details**: Click on any spot to get more information like address, phone number, and services.
 
-## **Screenshots**
-
-_Add relevant screenshots of the website to show the interactive map, search functionality, and user interface._
 
 ## **Future Enhancements**
 
