@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CEG CIRCLE &bull;Find places around CEG</title>
+<link rel="stylesheet" type="text/css" href="stylen.css">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<style>
+        #nav {
+            list-style: none inside;
+            margin-right: -167px;
+            margin-left: -167px;
+            padding: 0;
+            text-align: center;
+        }
+
+        #nav li {
+            display: block;
+            position: relative;
+            float: right;
+            background:#1B1B1B;
+            
+            /* menu background color */
+        }
+
+        #nav li a {
+            display: block;
+            padding: 0;
+            text-decoration: none;
+            width: 190px;
+            /* this is the width of the menu items */
+            line-height: 46px;
+            /* this is the hieght of the menu items */
+            color: #ffffff;
+            /* list item font color */
+        }
+
+        #nav li li a {
+            font-size: 80%;
+        }
+
+        /* smaller font size for sub menu items */
+
+        #nav li:hover {
+            background: gray;
+            color:#000;
+        }
+
+        /* highlights current hovered list item and the parent list items when hovering over sub menues */
+
+        #nav ul {
+            position: absolute;
+            padding: 0;
+            left: 0;
+            display: none;
+            /* hides sublists */
+        }
+
+        #nav li:hover ul ul {
+            display: none;
+            color:black;
+        }
+
+        /* hides sub-sublists */
+
+        #nav li:hover ul {
+            display: block;
+            color:black;
+        }
+
+        /* shows sublist on hover */
+
+        #nav li li:hover ul {
+            display: block;
+            /* shows sub-sublist on hover */
+            margin-left: 191px;
+            /* this should be the same width as the parent list item */
+            margin-top: -43px;
+            /* aligns top of sub menu with top of list item */
+            color:black;
+        }
+        #nav li.active a{
+           background-color:gray;
+           color:white;
+        }
+    </style>
+</head>
+<body>    
+<header>
+<div class="main">
+<div class="logo">
+<img src="">
+</div>
+<ul id="nav">
+        <li><a href="contactus.html">Contact us</a></li>
+        <li><a href="aboutus.html">About</a></li>
+        <li><a href="#">Find places</a>
+            <ul>
+                <li><a href="hospitals.html">Hospitals</a></li>
+                <li><a href="restaurants.html">Restaurants</a></li>
+                <li><a href="touristspots.html">Tourist Spots</a></li>
+                <li><a href="#">Places of worship  »</a>
+                    <ul>
+                        <li><a href="mosques.html">Mosques</a>
+                            <li><a href="temples.html">Temples</a>
+                                <li><a href="churches.html">Churches</a>
+                    </ul>
+                    </li>
+            </ul>
+            </li>
+            
+            <li class="active"><a href="indexn.html">Home</a></li>
+    </ul>
+</div>
+<div class="title">
+<h1>CEG<img width="11%" height="11%" src="location.png">CIRCLE</h1><br><br>
+<div class="search-bar">
+    <input  id="search" type="text" placeholder="Search any place" name="q">
+    	<a href="touristspots.html"><button><img src="search.png"></button></a>
+</div>
+</div>
+</header>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Us</title>
+ <link rel="icon" type="image/x-icon" href="favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;
+
+background-repeat:no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 12px;
+  margin-bottom: 18px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(157, 220, 31);
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #90efad;
+  padding: 20px;
+  margin-top: 12px;
+  margin-bottom: 18px;
+  width:30%;
+}
+div.container {
+text-align:left;
+}
+</style>
+</head>
+<body>
+<center>
+
+<h3 style="color:white;"></h3>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+
+
+<div class="container">
+  <form action="sub.html">
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="">
+
+    <label for="lname">Mobile Number</label>
+    <input type="text" id="lname" name="lastname" placeholder="">
+
+    <label for="lname">E-mail address</label>
+    <input type="text" id="lname" name="lastname" placeholder="">
+
+    <label for="country">Course interested</label>
+    <select id="country" name="country">
+      <option value="CSE">CSE</option>
+      <option value="IT">IT</option>
+      <option value="usa">ECE</option>
+      <option value="china">MECH</option>
+    </select>
+
+        
+    <center><input type="submit" value="Apply"></center>
+  </form>
+</div>
+</center>
+</body>
+</html>

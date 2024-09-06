@@ -1,0 +1,76 @@
+*{
+margin:0;
+padding:0;
+font-family:Century Gothic;
+}
+
+header{
+background-image:linear-gradient(rgba(0,0,51,0.5),rgba(0,0,51,0.5)),url('doingresearch.jpg');
+height:100vh;
+
+background-size:cover;
+background-position:center;
+
+}   
+   
+.logo{
+float:left;
+width:10%;
+height:10%;
+} 
+
+.main{
+max-width:1200px;
+margin:auto;
+}
+
+.title{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+
+.title h1{
+color:#fff;
+font-size:70px;
+text-align: center;
+}
+
+.search-bar{
+ width: 100%;
+ max-width: 800px;
+ background: rgba(255,255,255,0.2);
+ display: flex;
+ align-items: center;
+ border-radius: 60px;
+ padding: 10px 20px;   
+ backdrop-filter: blur(4px) saturate(180%);
+}
+
+.search-bar input{
+    background: transparent;
+    flex:1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color:#cac7ff;
+}
+
+ ::placeholder{
+     color:#cac7ff;
+ }
+
+ .search-bar button img{
+     width:25px;
+ }
+
+ .search-bar button{
+     border: 0;
+     border-radius: 50%;
+     width:60px;
+     height: 60px;
+     background: #58629b;
+    cursor: pointer;
+ }
